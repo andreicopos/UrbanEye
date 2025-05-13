@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['garbage', 'pothole']
+
+roboflow:
+  workspace: ab-q5wkj
+  project: garbage-and-pothole
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ab-q5wkj/garbage-and-pothole/dataset/2

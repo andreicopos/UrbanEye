@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['faded_road_lines', 'graffiti', 'overgrown grass', 'pothole', 'trash', 'trash_can_overflow']
+
+roboflow:
+  workspace: urbaneye
+  project: my-first-project-tlsl9
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/urbaneye/my-first-project-tlsl9/dataset/10

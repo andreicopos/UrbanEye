@@ -1,0 +1,32 @@
+# Python virtualenv
+venv/
+
+# Torch/YOLO training outputs & checkpoints
+runs/
+*.pt
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+android/**/build/
+ios/Pods/
+android/.gradle/
+**/GeneratedPluginRegistrant.*
+
+# Local config
+android/local.properties
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.flutter-plugins
+.flutter-plugins-dependencies
